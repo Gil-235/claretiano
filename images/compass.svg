@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px">
+  <g>
+    <!-- Círculo exterior de la brújula -->
+    <circle cx="256" cy="256" r="200" fill="none" stroke="#0d2f7b" stroke-width="20"/>
+    
+    <!-- Líneas de la brújula -->
+    <line x1="256" y1="56" x2="256" y2="456" stroke="#0d2f7b" stroke-width="15"/>
+    <line x1="56" y1="256" x2="456" y2="256" stroke="#0d2f7b" stroke-width="15"/>
+    
+    <!-- Flecha de la brújula -->
+    <polygon points="256,156 276,206 236,206" fill="#0d2f7b"/> <!-- Norte -->
+    <polygon points="256,356 276,306 236,306" fill="#0d2f7b"/> <!-- Sur -->
+    <polygon points="156,256 206,276 206,236" fill="#0d2f7b"/> <!-- Oeste -->
+    <polygon points="356,256 306,276 306,236" fill="#0d2f7b"/> <!-- Este -->
+    
+    <!-- Puntos intermedios -->
+    <polygon points="256,156 270,166 246,166" fill="#0d2f7b"/> <!-- Noroeste -->
+    <polygon points="256,156 240,166 270,166" fill="#0d2f7b"/> <!-- Noreste -->
+    <polygon points="256,356 240,346 270,346" fill="#0d2f7b"/> <!-- Suroeste -->
+    <polygon points="256,356 270,346 240,346" fill="#0d2f7b"/> <!-- Sureste -->
+  </g>
+</svg>
