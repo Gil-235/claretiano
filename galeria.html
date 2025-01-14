@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Colegio Claretiano - Galería</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Course Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/Logo.avif">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/new_style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header d-flex flex-row">
+		<div class="header_content d-flex flex-row align-items-center">
+			<!-- Logo -->
+			<div class="logo_container">
+				<div class="logo-img">
+					<img src="images/Logo.avif" alt="" class="logo-img">
+				</div>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav_container">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item"><a href="index.html">Inicio</a></li>
+						<li class="main_nav_item dropdown">
+							<a href="#">Nosotros</a>
+							<ul class="dropdown-menu">
+								<li><a href="historia.html">Reseña&nbsp;Histórica</a></li>
+								<li><a href="simbolos.html">Símbolos&nbsp;Institucionales</a></li>
+								<li><a href="himnos.html">Himnos</a></li>
+								<li><a href="claret.html">San&nbsp;Antonio&nbsp;María&nbsp;Claret</a></li>
+								<li><a href="proyecto.html">Proyecto&nbsp;Educativo</a></li>
+								<li><a href="pelicula.html">Película Claret</a></li>
+							</ul>
+						</li>
+						<li class="main_nav_item dropdown">
+							<a href="#">Información</a>
+							<ul class="dropdown-menu">
+								<li><a href="normativa.html">Normativa&nbsp;Institucional</a></li>
+								<li><a href="#">Acontecer</a></li>
+								<li><a href="#">Misiones&nbsp;Claretianas</a></li>
+								<li><a href="externos.html">Procesos&nbsp;Externos</a></li>
+								<li><a href="pago.html">Formas&nbsp;de&nbsp;Pago</a></li>
+								<li><a href="galeria.html">Galería</a></li>
+							</ul>
+						</li>
+						<li class="main_nav_item"><a href="contacto.html">Contacto</a></li>
+						<li class="main_nav_item"><a href="https://red-educa.com/Account/Login">RedEduca</a></li>
+						<li class="main_nav_item"><a href="https://www.claretiano.com/app-landing-page">Soporte&nbsp;T.I</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="header_side d-flex flex-column justify-content-center">
+			<!-- Fila 1: Teléfono -->
+			<div class="d-flex flex-row align-items-center" style="margin-left: 20px;">
+				<i class="bi bi-telephone-fill text-white" style="font-size: 1.3rem; margin-right: 10px;"></i>
+				<span style="font-size: 1rem;">+506&nbsp;2260&nbsp;3732</span>
+			</div>
+			<!-- Fila 2: Correo -->
+			<div class="d-flex flex-row align-items-center" style="margin-left: 20px;">
+				<i class="bi bi-envelope-fill text-white" style="font-size: 1.3rem; margin-right: 10px;"></i>
+				<span style="font-size: 1rem;">recepcion@claretiano.com</span>
+			</div>
+		</div>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container">
+			<i class="fas fa-bars trans_200"></i>
+		</div>
+
+	</header>
+	
+	<!-- Menu -->
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="index.html">Inicio</a></li>
+					<li class="menu_item menu_mm has_submenu"><a href="#">Nosotros</a>
+						<ul class="submenu menu_mm">
+							<li><a href="historia.html">Reseña&nbsp;Histórica</a></li>
+							<li><a href="simbolos.html">Símbolos&nbsp;Institucionales</a></li>
+							<li><a href="himnos.html">Himnos</a></li>
+							<li><a href="claret.html">San&nbsp;Antonio&nbsp;María&nbsp;Claret</a></li>
+							<li><a href="proyecto.html">Proyecto&nbsp;Educativo</a></li>
+							<li><a href="pelicula.html">Película&nbsp;Claret</a></li>
+						</ul>
+					</li>
+					<li class="menu_item menu_mm has_submenu"><a href="#">Información</a>
+						<ul class="submenu menu_mm">
+							<li><a href="normativa.html">Normativa&nbsp;Institucional</a></li>
+							<li><a href="#">Acontecer</a></li>
+							<li><a href="#">Misiones&nbsp;Claretianas</a></li>
+							<li><a href="externos.html">Procesos&nbsp;Externos</a></li>
+							<li><a href="pago.html">Formas&nbsp;de&nbsp;Pago</a></li>
+							<li><a href="galeria.html">Galería</a></li>
+						</ul>
+					</li>
+					<li class="menu_item menu_mm"><a href="contacto.html">Contacto</a></li>
+					<li class="menu_item menu_mm"><a href="https://red-educa.com/Account/Login">RedEduca</a></li>
+					<li class="menu_item menu_mm"><a href="https://www.claretiano.com/app-landing-page">Soporte&nbsp;T.I</a></li>
+				</ul>
+
+				<!-- Script para funcionalidad de submenús -->
+				<script>
+					document.addEventListener("DOMContentLoaded", function() {
+						// Seleccionar todos los elementos con submenús
+						const menuItems = document.querySelectorAll('.menu_mm .has_submenu > a');
+				
+						menuItems.forEach(item => {
+							item.addEventListener('click', function(event) {
+								event.preventDefault(); // Evita la redirección del enlace
+								event.stopPropagation(); // Detiene la propagación para evitar el cierre del menú
+				
+								const parent = this.parentElement; // Elemento li que contiene el submenú
+				
+								// Alternar la clase 'active' para abrir/cerrar submenús
+								if (parent.classList.contains('active')) {
+									parent.classList.remove('active');
+								} else {
+									// Cerrar otros submenús abiertos
+									document.querySelectorAll('.menu_mm .has_submenu').forEach(el => el.classList.remove('active'));
+									parent.classList.add('active');
+								}
+							});
+						});
+				
+						// Evitar que el menú principal se cierre al interactuar con los submenús
+						const menuContainer = document.querySelector('.menu_container');
+						if (menuContainer) {
+							menuContainer.addEventListener('click', function(event) {
+								event.stopPropagation(); // Evita que el clic en el menú cierre el menú principal
+							});
+						}
+				
+						// Selecciona el botón de cierre "x"
+						const closeButton = document.querySelector('.menu_close_container');
+						if (closeButton) {
+							closeButton.addEventListener('click', function(event) {
+								event.stopPropagation(); // Detiene la propagación para evitar conflictos con otros clics
+								closeMenu(); // Llama a la función que cierra el menú
+							});
+						}
+					});
+				
+					// Función para cerrar el menú
+					function closeMenu() {
+						const menuContainer = document.querySelector('.menu_container');
+						if (menuContainer) {
+							menuContainer.classList.remove('active'); // Remueve la clase 'active' para cerrar el menú
+						}
+					}
+				</script>
+
+				<!-- Menu Social -->
+				
+				<!-- <div class="menu_social_container menu_mm">
+					<ul class="menu_social menu_mm">
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div> -->
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background_container prlx_parent">
+			<div class="home_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+		</div>
+		<div class="home_content">
+			<h1>Galería</h1>
+		</div>
+	</div>
+
+	<!-- Popular -->
+
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .gallery-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-item .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            transition: opacity 0.3s ease;
+			pointer-events: none;
+        }
+
+        .gallery-item:hover .overlay {
+            opacity: 1;
+        }
+
+        /* Modal */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+        }
+
+        .modal img {
+            max-width: 90%;
+            max-height: 80%;
+            border-radius: 10px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+        }
+		.modal-arrow {
+        	position: absolute;
+        	top: 50%;
+        	transform: translateY(-50%);
+        	color: white;
+        	font-size: 40px;
+        	cursor: pointer;
+        	user-select: none;
+        	z-index: 2001;
+    	}
+
+    	.modal-arrow.left-arrow {
+        	left: 20px;
+    	}
+
+    	.modal-arrow.right-arrow {
+        	right: 20px;
+	    }
+
+    	.modal-arrow:hover {
+        	color: #ccc;
+    	}
+    </style>
+	
+	<div class="popular page_section">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>Conozca nuestra institución</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gallery-container">
+        <div class="gallery-item">
+            <img src="images/galeria/1.webp" alt="Foto 1">
+            <div class="overlay">Foto 1</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/2.webp" alt="Foto 2">
+            <div class="overlay">Foto 2</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/3.webp" alt="Foto 3">
+            <div class="overlay">Foto 3</div>
+        </div>
+		<div class="gallery-item">
+            <img src="images/galeria/4.webp" alt="Foto 4">
+            <div class="overlay">Foto 4</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/5.webp" alt="Foto 5">
+            <div class="overlay">Foto 5</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/6.webp" alt="Foto 6">
+            <div class="overlay">Foto 6</div>
+        </div>
+		<div class="gallery-item">
+            <img src="images/galeria/7.webp" alt="Foto 7">
+            <div class="overlay">Foto 7</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/8.webp" alt="Foto 8">
+            <div class="overlay">Foto 8</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/9.webp" alt="Foto 9">
+            <div class="overlay">Foto 9</div>
+        </div>
+		<div class="gallery-item">
+            <img src="images/galeria/10.webp" alt="Foto 10">
+            <div class="overlay">Foto 10</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/11.webp" alt="Foto 11">
+            <div class="overlay">Foto 11</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/12.webp" alt="Foto 12">
+            <div class="overlay">Foto 12</div>
+        </div>
+		<div class="gallery-item">
+            <img src="images/galeria/13.webp" alt="Foto 13">
+            <div class="overlay">Foto 13</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/14.webp" alt="Foto 14">
+            <div class="overlay">Foto 14</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/15.webp" alt="Foto 15">
+            <div class="overlay">Foto 15</div>
+        </div>
+		<div class="gallery-item">
+            <img src="images/galeria/16.webp" alt="Foto 16">
+            <div class="overlay">Foto 16</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/17.webp" alt="Foto 17">
+            <div class="overlay">Foto 17</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/18.webp" alt="Foto 18">
+            <div class="overlay">Foto 18</div>
+        </div>
+		<div class="gallery-item">
+            <img src="images/galeria/19.webp" alt="Foto 19">
+            <div class="overlay">Foto 19</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/20.webp" alt="Foto 20">
+            <div class="overlay">Foto 20</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/21.webp" alt="Foto 21">
+            <div class="overlay">Foto 21</div>
+        </div>
+		<div class="gallery-item">
+            <img src="images/galeria/22.webp" alt="Foto 22">
+            <div class="overlay">Foto 22</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/23.webp" alt="Foto 23">
+            <div class="overlay">Foto 23</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/24.webp" alt="Foto 24">
+            <div class="overlay">Foto 24</div>
+        </div>
+		<div class="gallery-item">
+            <img src="images/galeria/25.webp" alt="Foto 25">
+            <div class="overlay">Foto 25</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/26.webp" alt="Foto 26">
+            <div class="overlay">Foto 26</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/27.webp" alt="Foto 27">
+            <div class="overlay">Foto 27</div>
+        </div>
+		<div class="gallery-item">
+            <img src="images/galeria/28.webp" alt="Foto 28">
+            <div class="overlay">Foto 28</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/29.webp" alt="Foto 29">
+            <div class="overlay">Foto 29</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/30.webp" alt="Foto 30">
+            <div class="overlay">Foto 30</div>
+        </div>
+		<div class="gallery-item">
+            <img src="images/galeria/31.webp" alt="Foto 31">
+            <div class="overlay">Foto 31</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/32.webp" alt="Foto 32">
+            <div class="overlay">Foto 32</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/galeria/33.webp" alt="Foto 33">
+            <div class="overlay">Foto 33</div>
+        </div>
+    </div>
+	
+	<!-- Modal -->
+	<div class="modal" id="modal">
+        <span class="modal-close" id="modal-close">&times;</span>
+        <img src="" alt="Imagen ampliada" id="modal-img">
+		<span class="modal-arrow left-arrow" id="left-arrow">&#8249;</span>
+		<span class="modal-arrow right-arrow" id="right-arrow">&#8250;</span>
+    </div>
+	
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const galleryItems = document.querySelectorAll('.gallery-item img');
+			const modal = document.getElementById('modal');
+			const modalImg = document.getElementById('modal-img');
+			const modalClose = document.getElementById('modal-close');
+        	const leftArrow = document.getElementById('left-arrow');
+        	const rightArrow = document.getElementById('right-arrow');
+        	let currentIndex = -1; // Índice de la imagen actualmente mostrada en el modal
+	
+			if (galleryItems.length > 0) {
+				galleryItems.forEach((item, index) => {
+					item.addEventListener('click', (event) => {
+						modal.style.display = 'flex';
+						modalImg.src = event.target.src;
+						currentIndex = index; // Establece el índice actual
+					});
+				});
+			} else {
+				console.warn('No se encontraron imágenes en la galería.');
+			}
+	
+			// Cierra el modal
+			modalClose.addEventListener('click', () => {
+				modal.style.display = 'none';
+			});
+	
+			// Cierra el modal al hacer clic fuera de la imagen
+			modal.addEventListener('click', (e) => {
+				if (e.target === modal) {
+					modal.style.display = 'none';
+				}
+			});
+
+			// Muestra la imagen anterior
+			leftArrow.addEventListener('click', () => {
+				if (currentIndex > 0) {
+					currentIndex--; // Decrementa el índice
+				} else {
+					currentIndex = galleryItems.length - 1; // Vuelve a la última imagen si está en la primera
+				}
+				modalImg.src = galleryItems[currentIndex].src;
+			});
+
+			// Muestra la imagen siguiente
+			rightArrow.addEventListener('click', () => {
+				if (currentIndex < galleryItems.length - 1) {
+					currentIndex++; // Incrementa el índice
+				} else {
+					currentIndex = 0; // Vuelve a la primera imagen si está en la última
+				}
+				modalImg.src = galleryItems[currentIndex].src;
+			});
+
+			// Navegación con el teclado
+			document.addEventListener('keydown', (e) => {
+				if (modal.style.display === 'flex') {
+					if (e.key === 'ArrowLeft') {
+						leftArrow.click();
+					} else if (e.key === 'ArrowRight') {
+						rightArrow.click();
+					} else if (e.key === 'Escape') {
+						modalClose.click();
+					}
+				}
+        	});
+		});
+	</script>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			
+			<!-- Newsletter -->
+
+			<!-- <div class="newsletter">
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1>Subscribe to newsletter</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col text-center">
+						<div class="newsletter_form_container mx-auto">
+							<form action="post">
+								<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+									<input id="newsletter_email" class="newsletter_email" type="email" placeholder="Email Address" required="required" data-error="Valid email is required.">
+									<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div> -->
+
+			<!-- Footer Content -->
+
+			<div class="footer_content">
+				<div class="row">
+
+					<!-- Footer Column - About -->
+					<div class="col-lg-4 footer_col">
+
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<img src="images/Logo.avif" alt="" style="width: 40%; height: auto;">
+								
+							</div>
+						</div>
+
+						<p class="footer_about_text">Colegio Claretiano.<br>Heredia, Costa Rica.<br>Misioneros en la Enseñanza.</p>
+
+					</div>
+
+					<!-- Footer Column - Menu -->
+
+					<div class="col-lg-4 footer_col">
+						<div class="footer_column_title">Menu</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="index.html">Inicio</a></li>
+								<li class="footer_list_item"><a href="contacto.html">Contacto</a></li>
+								<li class="footer_list_item"><a href="https://red-educa.com/Account/Login">RedEduca</a></li>
+								<li class="footer_list_item"><a href="https://www.claretiano.com/app-landing-page">Soporte&nbsp;T.I</a></li>
+								<!-- <li class="footer_list_item"><a href="contacto.html">Contact</a></li> -->
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Usefull Links -->
+
+					<!-- <div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Usefull Links</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="#">Testimonials</a></li>
+								<li class="footer_list_item"><a href="#">FAQ</a></li>
+								<li class="footer_list_item"><a href="#">Community</a></li>
+								<li class="footer_list_item"><a href="#">Campus Pictures</a></li>
+								<li class="footer_list_item"><a href="#">Tuitions</a></li>
+							</ul>
+						</div>
+					</div> -->
+
+					<!-- Footer Column - Contact -->
+
+					<div class="col-lg-4 footer_col">
+						<div class="footer_column_title">Contacto</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									Mercedes Norte, Heredia.
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									+506 2260 3732
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>recepcion@claretiano.com
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Footer Copyright -->
+
+			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+				<div class="footer_copyright">
+					<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy; <script>document.write(new Date().getFullYear());</script> Colegio Claretiano Costa Rica | Powered by <a href="https://vamos-a-la-u.com" target="_blank">GilArqWeb</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+				</div>
+				<!-- <div class="footer_social ml-sm-auto">
+					<ul class="menu_social">
+						<li class="menu_social_item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div> -->
+			</div>
+
+		</div>
+	</footer>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

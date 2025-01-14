@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Colegio Claretiano - Himnos</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Course Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/Logo.avif">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/new_style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header d-flex flex-row">
+		<div class="header_content d-flex flex-row align-items-center">
+			<!-- Logo -->
+			<div class="logo_container">
+				<div class="logo-img">
+					<img src="images/Logo.avif" alt="" class="logo-img">
+				</div>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav_container">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item"><a href="index.html">Inicio</a></li>
+						<li class="main_nav_item dropdown">
+							<a href="#">Nosotros</a>
+							<ul class="dropdown-menu">
+								<li><a href="historia.html">Reseña&nbsp;Histórica</a></li>
+								<li><a href="simbolos.html">Símbolos&nbsp;Institucionales</a></li>
+								<li><a href="himnos.html">Himnos</a></li>
+								<li><a href="claret.html">San&nbsp;Antonio&nbsp;María&nbsp;Claret</a></li>
+								<li><a href="proyecto.html">Proyecto&nbsp;Educativo</a></li>
+								<li><a href="pelicula.html">Película Claret</a></li>
+							</ul>
+						</li>
+						<li class="main_nav_item dropdown">
+							<a href="#">Información</a>
+							<ul class="dropdown-menu">
+								<li><a href="normativa.html">Normativa&nbsp;Institucional</a></li>
+								<li><a href="#">Acontecer</a></li>
+								<li><a href="#">Misiones&nbsp;Claretianas</a></li>
+								<li><a href="externos.html">Procesos&nbsp;Externos</a></li>
+								<li><a href="pago.html">Formas&nbsp;de&nbsp;Pago</a></li>
+								<li><a href="galeria.html">Galería</a></li>
+							</ul>
+						</li>
+						<li class="main_nav_item"><a href="contacto.html">Contacto</a></li>
+						<li class="main_nav_item"><a href="https://red-educa.com/Account/Login">RedEduca</a></li>
+						<li class="main_nav_item"><a href="https://www.claretiano.com/app-landing-page">Soporte&nbsp;T.I</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="header_side d-flex flex-column justify-content-center">
+			<!-- Fila 1: Teléfono -->
+			<div class="d-flex flex-row align-items-center" style="margin-left: 20px;">
+				<i class="bi bi-telephone-fill text-white" style="font-size: 1.3rem; margin-right: 10px;"></i>
+				<span style="font-size: 1rem;">+506&nbsp;2260&nbsp;3732</span>
+			</div>
+			<!-- Fila 2: Correo -->
+			<div class="d-flex flex-row align-items-center" style="margin-left: 20px;">
+				<i class="bi bi-envelope-fill text-white" style="font-size: 1.3rem; margin-right: 10px;"></i>
+				<span style="font-size: 1rem;">recepcion@claretiano.com</span>
+			</div>
+		</div>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container">
+			<i class="fas fa-bars trans_200"></i>
+		</div>
+
+	</header>
+	
+	<!-- Menu -->
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="index.html">Inicio</a></li>
+					<li class="menu_item menu_mm has_submenu"><a href="#">Nosotros</a>
+						<ul class="submenu menu_mm">
+							<li><a href="historia.html">Reseña&nbsp;Histórica</a></li>
+							<li><a href="simbolos.html">Símbolos&nbsp;Institucionales</a></li>
+							<li><a href="himnos.html">Himnos</a></li>
+							<li><a href="claret.html">San&nbsp;Antonio&nbsp;María&nbsp;Claret</a></li>
+							<li><a href="proyecto.html">Proyecto&nbsp;Educativo</a></li>
+							<li><a href="pelicula.html">Película&nbsp;Claret</a></li>
+						</ul>
+					</li>
+					<li class="menu_item menu_mm has_submenu"><a href="#">Información</a>
+						<ul class="submenu menu_mm">
+							<li><a href="normativa.html">Normativa&nbsp;Institucional</a></li>
+							<li><a href="#">Acontecer</a></li>
+							<li><a href="#">Misiones&nbsp;Claretianas</a></li>
+							<li><a href="externos.html">Procesos&nbsp;Externos</a></li>
+							<li><a href="pago.html">Formas&nbsp;de&nbsp;Pago</a></li>
+							<li><a href="galeria.html">Galería</a></li>
+						</ul>
+					</li>
+					<li class="menu_item menu_mm"><a href="contacto.html">Contacto</a></li>
+					<li class="menu_item menu_mm"><a href="https://red-educa.com/Account/Login">RedEduca</a></li>
+					<li class="menu_item menu_mm"><a href="https://www.claretiano.com/app-landing-page">Soporte&nbsp;T.I</a></li>
+				</ul>
+
+				<!-- Script para funcionalidad de submenús -->
+				<script>
+					document.addEventListener("DOMContentLoaded", function() {
+						// Seleccionar todos los elementos con submenús
+						const menuItems = document.querySelectorAll('.menu_mm .has_submenu > a');
+				
+						menuItems.forEach(item => {
+							item.addEventListener('click', function(event) {
+								event.preventDefault(); // Evita la redirección del enlace
+								event.stopPropagation(); // Detiene la propagación para evitar el cierre del menú
+				
+								const parent = this.parentElement; // Elemento li que contiene el submenú
+				
+								// Alternar la clase 'active' para abrir/cerrar submenús
+								if (parent.classList.contains('active')) {
+									parent.classList.remove('active');
+								} else {
+									// Cerrar otros submenús abiertos
+									document.querySelectorAll('.menu_mm .has_submenu').forEach(el => el.classList.remove('active'));
+									parent.classList.add('active');
+								}
+							});
+						});
+				
+						// Evitar que el menú principal se cierre al interactuar con los submenús
+						const menuContainer = document.querySelector('.menu_container');
+						if (menuContainer) {
+							menuContainer.addEventListener('click', function(event) {
+								event.stopPropagation(); // Evita que el clic en el menú cierre el menú principal
+							});
+						}
+				
+						// Selecciona el botón de cierre "x"
+						const closeButton = document.querySelector('.menu_close_container');
+						if (closeButton) {
+							closeButton.addEventListener('click', function(event) {
+								event.stopPropagation(); // Detiene la propagación para evitar conflictos con otros clics
+								closeMenu(); // Llama a la función que cierra el menú
+							});
+						}
+					});
+				
+					// Función para cerrar el menú
+					function closeMenu() {
+						const menuContainer = document.querySelector('.menu_container');
+						if (menuContainer) {
+							menuContainer.classList.remove('active'); // Remueve la clase 'active' para cerrar el menú
+						}
+					}
+				</script>
+
+				<!-- Menu Social -->
+				
+				<!-- <div class="menu_social_container menu_mm">
+					<ul class="menu_social menu_mm">
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div> -->
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background_container prlx_parent">
+			<div class="home_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+		</div>
+		<div class="home_content">
+			<h1>Nosotros</h1>
+		</div>
+	</div>
+
+	<!-- Popular -->
+
+	<div class="popular page_section">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>Himnos Institucionales</h1>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!-- Register -->
+
+	<div class="register">
+
+		<div class="container-fluid">
+			
+			<div class="row row-eq-height">
+				<div class="col-lg-6 nopadding">
+					
+					<!-- Register -->
+
+					<div class="register_section d-flex flex-column align-items-center justify-content-center">
+						<div class="register_content text-center">
+							<h2 class="register_title">HIMNO A SAN ANTONIO MARIA CLARET</h2>
+							<p class="register_text">Llegó el Señor cruzando tu camino
+								<br>Y al verte por tu nombre te llamó
+								<br>Para hacerte testigo de su reino
+								<br>Como fiel mensajero de su voz.
+								
+								<br><br>Y tu cruzabas mares y montañas
+								<br>Proclamando el mensaje del amor
+								<br>Llegaste hasta las islas más lejanas
+								<br>Anunciando a los hombres el perdón.
+								
+								<br><br>Claret, voz peregrina que va sembrando
+								<br>La gran noticia, la salvación.
+								<br>No importan razas ni pueblos,
+								<br>Solo hay un padre, sólo un Señor.
+								
+								<br><br>Claret, desde tu vida Dios nos señala
+								<br>Nuestra tarea, nuestra misión,
+								<br>Vamos siguiendo tus huellas,
+								<br>Gritando al mundo, Dios es amor.
+								
+								<br><br>La luz del evangelio fue tu rumbo
+								<br>Tu vida Cristo mismo la llenó
+								<br>Y la hiciste llegar hasta los hombres,
+								<br>Como el hijo en María se nos dio.
+								
+								<br><br>Nosotros seguiremos tus caminos,
+								<br>Como nueva familia del Señor,
+								<br>Queremos ser también la luz del mundo
+								<br>Levadura de vida y salvación.</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-lg-6 nopadding">
+					
+					<!-- Search -->
+
+					<div class="search_section d-flex flex-column align-items-center justify-content-center">
+						<div class="search_background" style="background-image:url(images/search_background3.jpg);"></div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row row-eq-height">
+				<div class="col-lg-6 nopadding">
+					
+					<!-- Search2 -->
+
+					<div class="search_section d-flex flex-column align-items-center justify-content-center">
+						<div class="search_background" style="background-image:url(images/search_background4.jpg);"></div>
+					</div>
+
+				</div>
+				
+				<div class="col-lg-6 nopadding">
+					
+					<!-- Register2 -->
+
+					<div class="register_section d-flex flex-column align-items-center justify-content-center" style="background-color: #be2f0e;">
+						<div class="register_content text-center">
+							<h2 class="register_title">HIMNO DEL COLEGIO CLARETIANO</h2>
+							<p class="register_text">Cantemos este himno a la vida,  
+								<br>en honor a nuestra juventud  
+								<br>con dedicación y esfuerzo  
+								<br>lograremos la plenitud.
+								
+								<br><br>Compañeros claretianos  
+								<br>que por la vida pasamos  
+								<br>uniendo nuestras fuerzas  
+								<br>en un mismo ideal.
+								
+								<br><br>Servir a la Patria, servir a el Colegio,  
+								<br>con amor orgullo y fraternidad.  
+								<br>Vivamos unidos como amigos y hermanos  
+								<br>en un mundo nuevo de amor y amistad.
+								
+								<br><br>Cantemos este himno a la vida,  
+								<br>en honor a nuestra juventud  
+								<br>con dedicación y esfuerzo  
+								<br>lograremos la plenitud.
+								
+								<br><br>Hermanos claretianos  
+								<br>en un instante de vida  
+								<br>que feliz caminamos  
+								<br>hacia un sabio porvenir.
+								
+								<br><br>San Antonio Maria Claret
+								<br>arraisgando nuestros principios cristianos  
+								<br>Haremos de nuestra patria y nuestro Colegio  
+								<br>un remanso de paz, armonía y fraternidad.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Events -->
+
+	<div class="events page_section">
+
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			
+			<!-- Newsletter -->
+
+			<!-- <div class="newsletter">
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1>Subscribe to newsletter</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col text-center">
+						<div class="newsletter_form_container mx-auto">
+							<form action="post">
+								<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+									<input id="newsletter_email" class="newsletter_email" type="email" placeholder="Email Address" required="required" data-error="Valid email is required.">
+									<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div> -->
+
+			<!-- Footer Content -->
+
+			<div class="footer_content">
+				<div class="row">
+
+					<!-- Footer Column - About -->
+					<div class="col-lg-4 footer_col">
+
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<img src="images/Logo.avif" alt="" style="width: 40%; height: auto;">
+								
+							</div>
+						</div>
+
+						<p class="footer_about_text">Colegio Claretiano.<br>Heredia, Costa Rica.<br>Misioneros en la Enseñanza.</p>
+
+					</div>
+
+					<!-- Footer Column - Menu -->
+
+					<div class="col-lg-4 footer_col">
+						<div class="footer_column_title">Menu</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="index.html">Inicio</a></li>
+								<li class="footer_list_item"><a href="contacto.html">Contacto</a></li>
+								<li class="footer_list_item"><a href="https://red-educa.com/Account/Login">RedEduca</a></li>
+								<li class="footer_list_item"><a href="https://www.claretiano.com/app-landing-page">Soporte&nbsp;T.I</a></li>
+								<!-- <li class="footer_list_item"><a href="contacto.html">Contact</a></li> -->
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Usefull Links -->
+
+					<!-- <div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Usefull Links</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="#">Testimonials</a></li>
+								<li class="footer_list_item"><a href="#">FAQ</a></li>
+								<li class="footer_list_item"><a href="#">Community</a></li>
+								<li class="footer_list_item"><a href="#">Campus Pictures</a></li>
+								<li class="footer_list_item"><a href="#">Tuitions</a></li>
+							</ul>
+						</div>
+					</div> -->
+
+					<!-- Footer Column - Contact -->
+
+					<div class="col-lg-4 footer_col">
+						<div class="footer_column_title">Contacto</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									Mercedes Norte, Heredia.
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									+506 2260 3732
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>recepcion@claretiano.com
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Footer Copyright -->
+
+			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+				<div class="footer_copyright">
+					<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy; <script>document.write(new Date().getFullYear());</script> Colegio Claretiano Costa Rica | Powered by <a href="https://vamos-a-la-u.com" target="_blank">GilArqWeb</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+				</div>
+				<!-- <div class="footer_social ml-sm-auto">
+					<ul class="menu_social">
+						<li class="menu_social_item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div> -->
+			</div>
+
+		</div>
+	</footer>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

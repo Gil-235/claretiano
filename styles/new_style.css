@@ -1,0 +1,89 @@
+/* Estilos básicos para la navegación */
+.main_nav_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main_nav_item {
+    position: relative; /* Necesario para el dropdown */
+    margin: 0 15px;
+}
+
+.main_nav_item a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+}
+
+/* Estilo para el menú desplegable */
+.dropdown-menu {
+    display: none; /* Inicialmente oculto */
+    position: absolute;
+    top: 100%; /* Lo coloca justo debajo del ítem principal */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    z-index: 10;
+}
+
+/* Mostrar el dropdown cuando el usuario pasa el ratón */
+.main_nav_item:hover .dropdown-menu {
+    display: block;
+}
+
+/* Estilo de los ítems del submenú */
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    color: #333;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f4f4f4;
+}
+
+
+/* Estilo para el menú desplegable responsivo*/
+.menu_mm .submenu {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_mm .submenu li a {
+    padding: 10px 15px;
+    font-size: 125%;
+}
+
+.menu_mm .has_submenu.active .submenu {
+    display: block;
+}
+
+/* Estilo por defecto para el logo */
+.logo-img {
+    height: 94px;
+    width: auto;
+    display: block;
+}
+
+/* Para pantallas con ancho máximo de 575px */
+@media (max-width: 575px) {
+    .logo-img {
+        height: 64px; /* Altura del logo en pantallas pequeñas */
+    }
+}
+
+/* Para pantallas con ancho máximo de 479px */
+@media (max-width: 479px) {
+    .logo-img {
+        height: 50px; /* Altura del logo en pantallas muy pequeñas */
+    }
+}

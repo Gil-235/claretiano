@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Colegio Claretiano - Admisión</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Course Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/Logo.avif">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/new_style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header d-flex flex-row">
+		<div class="header_content d-flex flex-row align-items-center">
+			<!-- Logo -->
+			<div class="logo_container">
+				<div class="logo-img">
+					<img src="images/Logo.avif" alt="" class="logo-img">
+				</div>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav_container">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item"><a href="index.html">Inicio</a></li>
+						<li class="main_nav_item dropdown">
+							<a href="#">Nosotros</a>
+							<ul class="dropdown-menu">
+								<li><a href="historia.html">Reseña&nbsp;Histórica</a></li>
+								<li><a href="simbolos.html">Símbolos&nbsp;Institucionales</a></li>
+								<li><a href="himnos.html">Himnos</a></li>
+								<li><a href="claret.html">San&nbsp;Antonio&nbsp;María&nbsp;Claret</a></li>
+								<li><a href="proyecto.html">Proyecto&nbsp;Educativo</a></li>
+								<li><a href="pelicula.html">Película Claret</a></li>
+							</ul>
+						</li>
+						<li class="main_nav_item dropdown">
+							<a href="#">Información</a>
+							<ul class="dropdown-menu">
+								<li><a href="normativa.html">Normativa&nbsp;Institucional</a></li>
+								<li><a href="#">Acontecer</a></li>
+								<li><a href="#">Misiones&nbsp;Claretianas</a></li>
+								<li><a href="externos.html">Procesos&nbsp;Externos</a></li>
+								<li><a href="pago.html">Formas&nbsp;de&nbsp;Pago</a></li>
+								<li><a href="galeria.html">Galería</a></li>
+							</ul>
+						</li>
+						<li class="main_nav_item"><a href="contacto.html">Contacto</a></li>
+						<li class="main_nav_item"><a href="https://red-educa.com/Account/Login">RedEduca</a></li>
+						<li class="main_nav_item"><a href="https://www.claretiano.com/app-landing-page">Soporte&nbsp;T.I</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="header_side d-flex flex-column justify-content-center">
+			<!-- Fila 1: Teléfono -->
+			<div class="d-flex flex-row align-items-center" style="margin-left: 20px;">
+				<i class="bi bi-telephone-fill text-white" style="font-size: 1.3rem; margin-right: 10px;"></i>
+				<span style="font-size: 1rem;">+506&nbsp;2260&nbsp;3732</span>
+			</div>
+			<!-- Fila 2: Correo -->
+			<div class="d-flex flex-row align-items-center" style="margin-left: 20px;">
+				<i class="bi bi-envelope-fill text-white" style="font-size: 1.3rem; margin-right: 10px;"></i>
+				<span style="font-size: 1rem;">recepcion@claretiano.com</span>
+			</div>
+		</div>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container">
+			<i class="fas fa-bars trans_200"></i>
+		</div>
+
+	</header>
+	
+	<!-- Menu -->
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="index.html">Inicio</a></li>
+					<li class="menu_item menu_mm has_submenu"><a href="#">Nosotros</a>
+						<ul class="submenu menu_mm">
+							<li><a href="historia.html">Reseña&nbsp;Histórica</a></li>
+							<li><a href="simbolos.html">Símbolos&nbsp;Institucionales</a></li>
+							<li><a href="himnos.html">Himnos</a></li>
+							<li><a href="claret.html">San&nbsp;Antonio&nbsp;María&nbsp;Claret</a></li>
+							<li><a href="proyecto.html">Proyecto&nbsp;Educativo</a></li>
+							<li><a href="pelicula.html">Película&nbsp;Claret</a></li>
+						</ul>
+					</li>
+					<li class="menu_item menu_mm has_submenu"><a href="#">Información</a>
+						<ul class="submenu menu_mm">
+							<li><a href="normativa.html">Normativa&nbsp;Institucional</a></li>
+							<li><a href="#">Acontecer</a></li>
+							<li><a href="#">Misiones&nbsp;Claretianas</a></li>
+							<li><a href="externos.html">Procesos&nbsp;Externos</a></li>
+							<li><a href="pago.html">Formas&nbsp;de&nbsp;Pago</a></li>
+							<li><a href="galeria.html">Galería</a></li>
+						</ul>
+					</li>
+					<li class="menu_item menu_mm"><a href="contacto.html">Contacto</a></li>
+					<li class="menu_item menu_mm"><a href="https://red-educa.com/Account/Login">RedEduca</a></li>
+					<li class="menu_item menu_mm"><a href="https://www.claretiano.com/app-landing-page">Soporte&nbsp;T.I</a></li>
+				</ul>
+
+				<!-- Script para funcionalidad de submenús -->
+				<script>
+					document.addEventListener("DOMContentLoaded", function() {
+						// Seleccionar todos los elementos con submenús
+						const menuItems = document.querySelectorAll('.menu_mm .has_submenu > a');
+				
+						menuItems.forEach(item => {
+							item.addEventListener('click', function(event) {
+								event.preventDefault(); // Evita la redirección del enlace
+								event.stopPropagation(); // Detiene la propagación para evitar el cierre del menú
+				
+								const parent = this.parentElement; // Elemento li que contiene el submenú
+				
+								// Alternar la clase 'active' para abrir/cerrar submenús
+								if (parent.classList.contains('active')) {
+									parent.classList.remove('active');
+								} else {
+									// Cerrar otros submenús abiertos
+									document.querySelectorAll('.menu_mm .has_submenu').forEach(el => el.classList.remove('active'));
+									parent.classList.add('active');
+								}
+							});
+						});
+				
+						// Evitar que el menú principal se cierre al interactuar con los submenús
+						const menuContainer = document.querySelector('.menu_container');
+						if (menuContainer) {
+							menuContainer.addEventListener('click', function(event) {
+								event.stopPropagation(); // Evita que el clic en el menú cierre el menú principal
+							});
+						}
+				
+						// Selecciona el botón de cierre "x"
+						const closeButton = document.querySelector('.menu_close_container');
+						if (closeButton) {
+							closeButton.addEventListener('click', function(event) {
+								event.stopPropagation(); // Detiene la propagación para evitar conflictos con otros clics
+								closeMenu(); // Llama a la función que cierra el menú
+							});
+						}
+					});
+				
+					// Función para cerrar el menú
+					function closeMenu() {
+						const menuContainer = document.querySelector('.menu_container');
+						if (menuContainer) {
+							menuContainer.classList.remove('active'); // Remueve la clase 'active' para cerrar el menú
+						}
+					}
+				</script>
+
+				<!-- Menu Social -->
+				
+				<!-- <div class="menu_social_container menu_mm">
+					<ul class="menu_social menu_mm">
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div> -->
+
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background_container prlx_parent">
+			<div class="home_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+		</div>
+		<div class="home_content">
+			<h1>Admisión</h1>
+		</div>
+	</div>
+
+	<!-- Popular -->
+
+	<div class="popular page_section">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>Base de datos</h1>
+					</div>
+				</div>
+			</div>
+
+
+			<style>
+				body {
+					font-family: Arial, sans-serif;
+					background-color: #f4f7f6;
+					margin: 0;
+					padding: 20px;
+				}
+		
+				.table-container {
+					overflow-x: auto;
+					max-width: 100%;
+				}
+
+				.filters {
+					margin-bottom: 20px;
+				}
+
+				.filters select, .filters button {
+					padding: 10px;
+					margin: 0 10px;
+					font-size: 14px;
+					border-radius: 5px;
+					border: 1px solid #ddd;
+					background-color: #fff;
+				}
+
+				.filters select:focus, .filters button:focus {
+					outline: none;
+					border-color: #0d2f7b;
+				}
+
+				/* Botón de Descargar Fichas */
+				#downloadFichasBtn {
+					padding: 10px 20px;
+					font-size: 14px;
+					background-color: #e30303; /* Rojo para el botón de fichas */
+					color: white;
+					border: none;
+					border-radius: 5px;
+					cursor: pointer;
+					position: absolute;
+					right: 175px; /* Posiciona el botón a la izquierda del botón de Excel */
+					transition: background-color 0.3s ease;
+				}
+
+				#downloadFichasBtn:hover {
+					background-color: #b30202; /* Cambio de color cuando pasa el mouse */
+				}
+
+				/* Ajusta la posición del botón de Excel alineado a la derecha */
+				#downloadBtn {
+					padding: 10px 20px;
+					font-size: 14px;
+					background-color: #1a9c33; /* Verde de Excel */
+					color: white;
+					border: none;
+					border-radius: 5px;
+					cursor: pointer;
+					position: absolute;
+					right: 20px;
+					transition: background-color 0.3s ease;
+				}
+
+				#downloadBtn:hover {
+					background-color: #156d27; /* Cambio de color cuando pasa el mouse */
+				}
+		
+				table {
+					width: 100%;
+					border-collapse: collapse;
+					margin: 25px 0;
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+				}
+		
+				th, td {
+					padding: 12px 15px;
+					text-align: center;
+					border: 1px solid #ddd;
+					color: #000; /* Texto negro */
+        			white-space: nowrap; /* Asegura que las celdas no se rompan */
+				}
+		
+				th {
+					background-color: #0d2f7b;
+					color: white;
+					font-weight: bold;
+				}
+		
+				tr:nth-child(even) {
+					background-color: #f2f2f2;
+				}
+		
+				tr:hover {
+					background-color: #ddd;
+				}
+
+				.check-verde {
+					color: green;
+					font-size: 18px;
+					margin-left: 10px; /* Espacio entre el select y el check verde */
+					display: none; /* Inicialmente oculto */
+					position: absolute; /* Posiciona el check verde al lado del select */
+				}
+			</style>
+
+			<!-- Filtros de Año y Nivel -->
+			<div class="filters">
+				<label for="year">Año:</label>
+				<select id="year">
+					<option value="2026" selected>2026</option>
+					<option value="2027">2027</option>
+					<option value="2028">2028</option>
+				</select>
+		
+				<label for="level">Nivel:</label>
+				<select id="level">
+					<option value="todos" selected>Todos</option>
+					<option value="séptimo">Sétimo</option>
+					<option value="octavo">Octavo</option>
+					<option value="noveno">Noveno</option>
+				</select>
+
+				<label for="condicion">Condición:</label>
+				<select id="condicion">
+					<option value="todos" selected>Todos</option>
+					<option value="séptimo">Admitido</option>
+					<option value="octavo">No admitido</option>
+				</select>
+		
+				<!-- Botón de Descargar Fichas -->
+				<button id="downloadFichasBtn">Descargar Fichas</button>
+				
+				<!-- Botón de Descargar en Excel -->
+				<button id="downloadBtn">Descargar Excel</button>
+			</div>
+
+			<!-- Tabla de Datos -->
+			<div class="table-container">
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>Nombre&nbsp;Completo</th>
+							<th>Nivel</th>
+							<th>Ficha&nbsp;firmada</th>
+							<th>Foto&nbsp;pasaporte</th>
+							<th>Admitido</th>
+							<th>Contrato</th>
+							<th>Desestima</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Pérez Solano Juan</td>
+							<td>Sétimo</td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>López Villegas Ana</td>
+							<td>Sétimo</td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Sánchez Oreamuno Jimena</td>
+							<td>Octavo</td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Arce Quirós Gilberth</td>
+							<td>Sétimo</td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+							<td><select><option value="Sí">Sí</option><option value="No" selected>No</option></select><span class="check-verde">✔</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+
+			<!-- Script para la función de descarga de Excel (XLSX) usando SheetJS -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.full.min.js"></script>
+			<script>
+				// Script para check verde
+				document.querySelectorAll('select').forEach(function(select) {
+					select.addEventListener('change', function() {
+						var check = this.closest('td').querySelector('.check-verde');
+						// Mostrar el check verde si se selecciona "Sí"
+						if (this.value === 'Sí') {
+							check.style.display = 'inline'; // Muestra el check
+						} else {
+							check.style.display = 'none'; // Oculta el check
+						}
+					});
+				});
+				
+				// Script para el botón de Descargar Fichas
+				document.getElementById('downloadFichasBtn').addEventListener('click', function () {
+					alert("Funcionalidad de Descargar Fichas aún no implementada.");
+					// Aquí puedes agregar la lógica para generar las fichas de los estudiantes
+				});
+
+				// Script para exportar a Excel
+				document.getElementById('downloadBtn').addEventListener('click', function () {
+					let table = document.querySelector('table');
+					if (!table) return alert("No se encontró la tabla.");
+
+					let rows = table.querySelectorAll('tr');
+					if (rows.length === 0) return alert("La tabla está vacía.");
+
+					let data = [];
+			
+					// Obtén el año seleccionado
+					const year = document.getElementById('year').value || "AÑO DESCONOCIDO";
+
+					// Determina la cantidad de columnas
+					const headerRow = table.querySelector('thead tr');
+					const numColumns = headerRow ? headerRow.children.length : 0;
+					if (numColumns === 0) return alert("La tabla no tiene columnas.");
+			
+					// Agrega la fila del título ocupando todas las columnas
+					const titleRow = Array(numColumns).fill('');
+					titleRow[0] = `PROCESO DE ADMISIÓN COLEGIO CLARETIANO ${year}`; // Solo en la primera celda
+					data.push(titleRow);
+			
+					// Recorre todas las filas de la tabla y extrae el contenido
+					rows.forEach(row => {
+						let rowData = [];
+						let cells = row.querySelectorAll('td, th');
+						cells.forEach(cell => {
+							// Verifica si la celda contiene un select y toma el valor seleccionado
+							let select = cell.querySelector('select');
+							if (select) {
+								rowData.push(select.value || ''); // Si no hay valor, agrega una celda vacía
+							} else {
+								rowData.push(cell.textContent.trim()); // Para otras celdas, usa el texto directamente
+							}
+						});
+						data.push(rowData);
+					});
+			
+					// Crea un libro de trabajo con la biblioteca SheetJS
+					const ws = XLSX.utils.aoa_to_sheet(data);
+			
+					// Combina celdas para el título
+					ws['!merges'] = [{ s: { r: 0, c: 0 }, e: { r: 0, c: numColumns - 1 } }];
+
+					// Agregar filtros automáticos
+					const filterRange = XLSX.utils.encode_range({
+						s: { r: 1, c: 0 }, // Comienza en la fila 2 (ignorar título) y columna 0
+						e: { r: data.length - 1, c: numColumns - 1 } // Termina en la última fila y columna
+					});
+					ws['!autofilter'] = { ref: filterRange };
+			
+					// Ajuste del estilo del título (negrita y alineación centrada)
+					ws['A1'].s = {
+						font: { sz: 14, bold: true }, // Fuente tamaño 14, en negrita
+						alignment: { horizontal: 'center', vertical: 'center' }, // Alineación horizontal y vertical
+					};
+			
+					// Ajuste del ancho de las columnas sin considerar el título
+					const colWidths = [];
+					for (let colIndex = 0; colIndex < numColumns; colIndex++) {
+						let maxLength = data.slice(1).reduce((max, row) => { // Ignorar el título (fila 0)
+							const cellValue = row[colIndex] || ""; // Valor de la celda
+							return Math.max(max, cellValue.length); // Actualiza el largo máximo
+						}, 0);
+						colWidths.push({ wch: maxLength + 3 }); // Ajuste con un margen adicional de 2
+					}
+			
+					// Establece los anchos de las columnas en la hoja
+					ws['!cols'] = colWidths;
+			
+					// Genera el archivo XLSX con el ancho ajustado
+					const wb = XLSX.utils.book_new();
+					XLSX.utils.book_append_sheet(wb, ws, "Datos");
+					XLSX.writeFile(wb, `Datos_Admisión_${year}.xlsx`);
+				});
+			</script>
+
+			
+
+
+
+
+
+
+
+			
+
+
+		</div>
+
+
+		
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			
+			<!-- Newsletter -->
+
+			<!-- <div class="newsletter">
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1>Subscribe to newsletter</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col text-center">
+						<div class="newsletter_form_container mx-auto">
+							<form action="post">
+								<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+									<input id="newsletter_email" class="newsletter_email" type="email" placeholder="Email Address" required="required" data-error="Valid email is required.">
+									<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div> -->
+
+			<!-- Footer Content -->
+
+			<div class="footer_content">
+				<div class="row">
+
+					<!-- Footer Column - About -->
+					<div class="col-lg-4 footer_col">
+
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<img src="images/Logo.avif" alt="" style="width: 40%; height: auto;">
+								
+							</div>
+						</div>
+
+						<p class="footer_about_text">Colegio Claretiano.<br>Heredia, Costa Rica.<br>Misioneros en la Enseñanza.</p>
+
+					</div>
+
+					<!-- Footer Column - Menu -->
+
+					<div class="col-lg-4 footer_col">
+						<div class="footer_column_title">Menu</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="index.html">Inicio</a></li>
+								<li class="footer_list_item"><a href="contacto.html">Contacto</a></li>
+								<li class="footer_list_item"><a href="https://red-educa.com/Account/Login">RedEduca</a></li>
+								<li class="footer_list_item"><a href="https://www.claretiano.com/app-landing-page">Soporte&nbsp;T.I</a></li>
+								<!-- <li class="footer_list_item"><a href="contacto.html">Contact</a></li> -->
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Usefull Links -->
+
+					<!-- <div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Usefull Links</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="#">Testimonials</a></li>
+								<li class="footer_list_item"><a href="#">FAQ</a></li>
+								<li class="footer_list_item"><a href="#">Community</a></li>
+								<li class="footer_list_item"><a href="#">Campus Pictures</a></li>
+								<li class="footer_list_item"><a href="#">Tuitions</a></li>
+							</ul>
+						</div>
+					</div> -->
+
+					<!-- Footer Column - Contact -->
+
+					<div class="col-lg-4 footer_col">
+						<div class="footer_column_title">Contacto</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									Mercedes Norte, Heredia.
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									+506 2260 3732
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>recepcion@claretiano.com
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Footer Copyright -->
+
+			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+				<div class="footer_copyright">
+					<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy; <script>document.write(new Date().getFullYear());</script> Colegio Claretiano Costa Rica | Powered by <a href="https://vamos-a-la-u.com" target="_blank">GilArqWeb</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+				</div>
+				<!-- <div class="footer_social ml-sm-auto">
+					<ul class="menu_social">
+						<li class="menu_social_item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div> -->
+			</div>
+
+		</div>
+	</footer>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
